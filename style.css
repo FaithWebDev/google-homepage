@@ -1,3 +1,177 @@
-* {
-    
+html {
+  font-family: "arial", sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-wrapper {
+    padding-bottom: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+ul.left {
+  padding-left: 0;
+  margin-left: 10px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.nav-link {
+  color: #222;
+  opacity: 0.75;
+}
+
+a {
+  padding: 7.5px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 300px;
+  padding-top: 150px;
+  margin-bottom: 25px;
+}
+
+input {
+  border-radius: 25px;
+  width: 527px;
+  height: 34px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
+  box-shadow: 0 2px 1px 0.05px #80808080;
+}
+
+.material-icons:hover {
+  text-decoration: none;
+}
+
+.material-icons {
+    color: #222;
+  opacity: 0.75;
+}
+
+.mag {
+  color: #9aa0a6;
+  display: block;
+  position: absolute;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mag + input {
+  padding-left: 50px;
+  align-items: center;
+}
+
+.mag {
+  padding-left: 10px;
+}
+
+#sign-in {
+  color: white;
+  background-color: #2b7de9;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  padding: 9px 23px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.search-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 18px;
+}
+
+.search-buttons button {
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #222;
+  opacity: 0.75;
+  display: flex;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  margin: 11px 4px;
+}
+
+.search-buttons button:hover {
+    box-shadow: 0 2px 1px 0.05px #80808080;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer-link {
+    color: #222;
+  opacity: 0.75;
 }
